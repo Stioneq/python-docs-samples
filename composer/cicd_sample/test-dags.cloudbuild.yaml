@@ -26,6 +26,6 @@ steps:
   # run in python 3.8 which is latest version in Cloud Composer
   - name: python:3.8-slim
     entrypoint: python3.8
-    args: ["-m", "pytest", "-s", "dags/"]
+    args: ["-m", "pytest", "-s", "composer/cicd_sample/dags/"]
 
 # [END composer_cicd_unittest_yaml]
